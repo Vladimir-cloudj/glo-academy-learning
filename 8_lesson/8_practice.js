@@ -181,7 +181,7 @@ const appData = {
     appData.addPrices(); 
     appData.getFullPrice(); 
     appData.getTitle(); 
-    thiappDatas.getServicePercentPrices(); 
+    appData.getServicePercentPrices(); 
     appData.logger();
   },
 
@@ -198,3 +198,4 @@ const appData = {
 
 
 appData.start();
+
